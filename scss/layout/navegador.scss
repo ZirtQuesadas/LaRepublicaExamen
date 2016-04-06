@@ -1,0 +1,185 @@
+$none: none;
+$container: 40px 0px;
+
+.GlrHeader-banner {
+
+	.GlrHeader-social {
+	    background-color: #eaeaea !important;
+	    padding: 10px 0px!important;
+	 }
+	 .banner-top {
+
+		 .banner-list {
+		 	padding: 10px 0px 0px;
+
+		 	li {
+		 		list-style: $none;
+		 		font-size: 10px;
+		 		display: inline-block;
+		 		margin-left: 10px;	
+		 	}
+		 	a {
+		 		text-decoration: $none;
+		 		color: gray;
+		 	}
+		 	ul {
+		 		display: inline-block;
+		 	}
+		 }
+		 .banner-contact {
+		 	padding: 10px 0px 0px;
+
+		 	button {
+		 		float: left;
+		 		display: inline-block;
+		 		font-size: 10px;
+		 		margin-left: 20px;	
+		 	}
+		 	ul {
+		 		float: left;
+		 		display: inline-block;
+		 		margin-right: 15px;
+		 		margin-left: -30px;
+		 	}
+		 	li {
+		 		list-style: $none;
+		 		font-size: 12px;
+		 		display: inline-block;
+		 		margin-left: 10px;
+
+		 		.fa-facebook {
+					color: #3b5998;
+		 		}
+		 		.fa-google-plus {
+		 			color: #dc4e41;
+		 		}
+		 		.fa-twitter {
+		 			color: #55acee;
+		 		}
+		 		.fa-envelope {
+		 			color: #ffcc33;
+		 		}
+		 		.fa-rss {
+		 			color: #f26522;
+		 		}
+		 	}
+		 	.banner-buscar {
+		 		font-size: 12px;
+		 		float: left;
+
+		 		a{
+		 			color: gray;
+		 		}
+		 		p {
+			 		border-left: 1px solid gray;
+			 		margin-right: 5px;
+			 		padding-left: 10px;
+			 		display: inline-block;
+		 		}
+		 		.fa-search {
+		 			border-right: 1px solid gray;
+		 			padding-right: 10px;
+		 		}
+		 	}
+		 }
+	}
+}
+.logo {
+	padding: $container;
+
+	.banner-futbol {
+		float: right;
+		position: relative;
+		text-align: center;
+
+		h6 {
+			font-family: serif;
+			position: absolute;
+			top: -30px;
+			left: 45px;
+			padding: 10px;
+			background-color: #062f3c;
+			color: #fff;
+		}
+		p {
+			font-size: 10px;
+			padding: 20px 10px;
+			border: 1px solid gray;
+			border-bottom: 2px solid gray;
+		}
+	}
+	.banner-editorial {
+		float: right;
+		position: relative;
+		text-align: center;
+		color: black;
+		border: 1px solid gray;
+		padding: 0;
+
+		p {
+			font-size: 10px;
+		}
+		.uno {
+			float: left;
+			height: 58px;
+		}
+		.dos {
+			position: absolute;
+			right: -5px;
+			top: -5px;
+		}
+	}
+	.navbar {
+		background-color: #cc0000 !important;
+		margin: 40px 0 -60px;
+		
+		li {
+			border-right: 1px solid #7d0100;
+
+			&:last-child {
+				border-right: transparent;
+			}
+		}
+
+		a {
+			padding: 10px 11px !important;
+			margin-bottom: 7px !important; 
+			color: #fff;
+			font-size: 10px;
+
+			&:hover {
+				background-color: transparent !important;
+			}
+		}
+	}
+}
+
+.banner_aside {
+
+	.banner-left{
+		position: absolute;
+		float: left;
+	}
+	.banner-right {
+		position: absolute;
+		right: 0;
+	}
+	.navbar {
+		margin: 40px 0 -60px;
+		
+		.navbar-brand {
+			border-radius: 5px;
+			background-color: black;
+			color: white;
+			float: left;
+		}
+		.navbar-nav {
+			li {
+				font-size: 10px;
+			}
+		}
+	}
+	.banner-header {
+		padding: 20px 0px;
+	}
+}

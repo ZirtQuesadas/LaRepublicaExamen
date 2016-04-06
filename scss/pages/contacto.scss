@@ -1,0 +1,24 @@
+#contacto {
+	padding: $container;
+	position: relative;
+
+	form {
+		padding: $container;
+		margin-left: 200px;
+
+		.labels-left {
+			float: left;
+			font-size: 12px;
+		}
+		.labels-right {
+			float: right;
+			font-size: 12px;
+		}
+		textarea {
+			height: 200px;
+		}
+		img {
+			margin: 20px 150px;
+		}
+	}
+}

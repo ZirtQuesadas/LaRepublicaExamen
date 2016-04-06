@@ -1,0 +1,239 @@
+.GlrHeader-banner .GlrHeader-social {
+  background-color: #eaeaea !important;
+  padding: 10px 0px !important; }
+.GlrHeader-banner .banner-top .banner-list {
+  padding: 10px 0px 0px; }
+  .GlrHeader-banner .banner-top .banner-list li {
+    list-style: none;
+    font-size: 10px;
+    display: inline-block;
+    margin-left: 10px; }
+  .GlrHeader-banner .banner-top .banner-list a {
+    text-decoration: none;
+    color: gray; }
+  .GlrHeader-banner .banner-top .banner-list ul {
+    display: inline-block; }
+.GlrHeader-banner .banner-top .banner-contact {
+  padding: 10px 0px 0px; }
+  .GlrHeader-banner .banner-top .banner-contact button {
+    float: left;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 20px; }
+  .GlrHeader-banner .banner-top .banner-contact ul {
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: -30px; }
+  .GlrHeader-banner .banner-top .banner-contact li {
+    list-style: none;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 10px; }
+    .GlrHeader-banner .banner-top .banner-contact li .fa-facebook {
+      color: #3b5998; }
+    .GlrHeader-banner .banner-top .banner-contact li .fa-google-plus {
+      color: #dc4e41; }
+    .GlrHeader-banner .banner-top .banner-contact li .fa-twitter {
+      color: #55acee; }
+    .GlrHeader-banner .banner-top .banner-contact li .fa-envelope {
+      color: #ffcc33; }
+    .GlrHeader-banner .banner-top .banner-contact li .fa-rss {
+      color: #f26522; }
+  .GlrHeader-banner .banner-top .banner-contact .banner-buscar {
+    font-size: 12px;
+    float: left; }
+    .GlrHeader-banner .banner-top .banner-contact .banner-buscar a {
+      color: gray; }
+    .GlrHeader-banner .banner-top .banner-contact .banner-buscar p {
+      border-left: 1px solid gray;
+      margin-right: 5px;
+      padding-left: 10px;
+      display: inline-block; }
+    .GlrHeader-banner .banner-top .banner-contact .banner-buscar .fa-search {
+      border-right: 1px solid gray;
+      padding-right: 10px; }
+
+.logo {
+  padding: 40px 0px; }
+  .logo .banner-futbol {
+    float: right;
+    position: relative;
+    text-align: center; }
+    .logo .banner-futbol h6 {
+      font-family: serif;
+      position: absolute;
+      top: -30px;
+      left: 45px;
+      padding: 10px;
+      background-color: #062f3c;
+      color: #fff; }
+    .logo .banner-futbol p {
+      font-size: 10px;
+      padding: 20px 10px;
+      border: 1px solid gray;
+      border-bottom: 2px solid gray; }
+  .logo .banner-editorial {
+    float: right;
+    position: relative;
+    text-align: center;
+    color: black;
+    border: 1px solid gray;
+    padding: 0; }
+    .logo .banner-editorial p {
+      font-size: 10px; }
+    .logo .banner-editorial .uno {
+      float: left;
+      height: 58px; }
+    .logo .banner-editorial .dos {
+      position: absolute;
+      right: -5px;
+      top: -5px; }
+  .logo .navbar {
+    background-color: #cc0000 !important;
+    margin: 40px 0 -60px; }
+    .logo .navbar li {
+      border-right: 1px solid #7d0100; }
+      .logo .navbar li:last-child {
+        border-right: transparent; }
+    .logo .navbar a {
+      padding: 10px 11px !important;
+      margin-bottom: 7px !important;
+      color: #fff;
+      font-size: 10px; }
+      .logo .navbar a:hover {
+        background-color: transparent !important; }
+
+.banner_aside .banner-left {
+  position: absolute;
+  float: left; }
+.banner_aside .banner-right {
+  position: absolute;
+  right: 0; }
+.banner_aside .navbar {
+  margin: 40px 0 -60px; }
+  .banner_aside .navbar .navbar-brand {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    float: left; }
+  .banner_aside .navbar .navbar-nav li {
+    font-size: 10px; }
+.banner_aside .banner-header {
+  padding: 20px 0px; }
+
+footer {
+  background-color: #eee;
+  padding: 40px 0px;
+  list-style: none;
+  font-size: 11px; }
+  footer img {
+    padding: 40px 0px; }
+  footer .border {
+    border-left: 1px solid white; }
+  footer .border-bottom {
+    padding: 20px 0px;
+    border-bottom: 1px solid white; }
+  footer .diarios {
+    padding: 40px 0px;
+    text-align: center; }
+    footer .diarios p, footer .diarios li {
+      color: gray;
+      display: inline-block;
+      margin-right: 10px; }
+    footer .diarios a {
+      color: gray; }
+      footer .diarios a:hover {
+        text-decoration: none; }
+
+#contacto {
+  padding: 40px 0px;
+  position: relative; }
+  #contacto form {
+    padding: 40px 0px;
+    margin-left: 200px; }
+    #contacto form .labels-left {
+      float: left;
+      font-size: 12px; }
+    #contacto form .labels-right {
+      float: right;
+      font-size: 12px; }
+    #contacto form textarea {
+      height: 200px; }
+    #contacto form img {
+      margin: 20px 150px; }
+
+h5 {
+  color: #9ABFB2;
+  margin-top: derecha; }
+
+.thum {
+  width: 100%;
+  height: auto;
+  border: 1px solid #9ABFB2;
+  float: left; }
+
+.cuagris {
+  width: 90%;
+  height: 100px;
+  background-color: #D8D8D8;
+  float: left;
+  margin-left: 5%;
+  margin-top: 15%;
+  margin-bottom: 10%; }
+
+.cuagrisdos {
+  width: 100%;
+  height: 100px;
+  background-color: #D8D8D8;
+  float: left;
+  margin-left: 5%;
+  margin-top: 15%;
+  margin-bottom: 10%; }
+
+.chico {
+  font-size: 10px;
+  margin-top: 15%; }
+
+.fotochica {
+  border: 2px solid #fff;
+  margin-left: 20%;
+  margin-top: 20%;
+  -webkit-box-shadow: 0px 10px 35px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 35px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 35px -5px rgba(0, 0, 0, 0.75); }
+
+.nombre {
+  font-size: 12px;
+  margin-left: 30%; }
+
+.noticia {
+  font-size: 14px;
+  color: #9ABFB2;
+  margin-left: 45%;
+  margin-top: 10%; }
+
+.abajo {
+  margin-top: 3%; }
+
+.tama {
+  height: 25px;
+  margin-left: 35%;
+  margin-top: 3%; }
+
+#columna-right .well {
+  position: relative;
+  width: 100%;
+  height: 200px; }
+  #columna-right .well .suscribe-red {
+    position: relative;
+    top: 50px;
+    width: 100%; }
+    #columna-right .well .suscribe-red img {
+      position: absolute;
+      top: -60px;
+      left: 80px; }
+#columna-right .aweita .logo {
+  margin-left: 80px; }
+
+/*# sourceMappingURL=main.css.map */
